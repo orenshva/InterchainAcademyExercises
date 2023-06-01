@@ -15,6 +15,8 @@ const (
 
 	// MemStoreKey defines the in-memory store key
 	MemStoreKey = "mem_otherworld"
+
+	WorldParamsKey = "world_params"
 )
 
 func KeyPrefix(p string) []byte {
